@@ -7,7 +7,7 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/SudoR2spr/txt-leech-bot",
+    "repository": "https://github.com/hectorog612/google",
     "success_url": "https://t.me/Opleech_WD",
     "stack": "heroku-22",
     "env": {
