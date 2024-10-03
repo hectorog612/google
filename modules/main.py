@@ -188,7 +188,7 @@ async def account_login(bot: Client, m: Message):
 
             elif '/master.mpd' in url:
              id =  url.split("/")[-2]
-             url =  "https://stream.pwjarvis.app/" + id + "/hls/480/main.m3u8
+             url =  "https://stream.pwjarvis.app/" + id + "/hls/480/main.m3u8"
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{str(count).zfill(3)}) ﹝𝗛𝗲𝗰𝘁𝗼𝗿𝗢𝗴﹞ {name1[:60]}'
